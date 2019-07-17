@@ -12,12 +12,13 @@ import org.springframework.context.annotation.Configuration;
 public class SupplyingBeans {
 
   @Bean
+  public ComplexLogicService complexLogicService(
+      @Autowired Sendable<Mail> sendable){
+    return new ComplexLogicService(sendable);
+  }
+  @Bean
   public Sendable<Mail> createSendable(){
     return new SendableOfMail();
   }
 
-  @Bean
-  public ComplexLogicService complexLogicService(@Autowired Sendable<Mail> sendable){
-    return new ComplexLogicService(sendable);
-  }
 }

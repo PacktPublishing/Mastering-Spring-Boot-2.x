@@ -9,10 +9,11 @@ import javax.annotation.PostConstruct;
 @Component
 public class ProgrammaticConfigurationOfDI {
 
-  private ComplexLogicService complexLogicService;
+  private final ComplexLogicService complexLogicService;
 
   @Autowired
-  public ProgrammaticConfigurationOfDI(ComplexLogicService complexLogicService) {
+  public ProgrammaticConfigurationOfDI(
+      ComplexLogicService complexLogicService) {
     this.complexLogicService = complexLogicService;
   }
 

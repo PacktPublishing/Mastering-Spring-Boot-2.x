@@ -1,11 +1,11 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Create new Payment</title>
+    <title>Create new Salary</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 </head>
 <body>
 <h1>Form</h1>
-<form action="#" th:action="@{/mvc/payment}" th:object="${paymentDto}" method="post">
+<form action="#" th:action="@{/mvc/salary}" th:object="${salaryDto}" method="post">
     <p>userId: <input type="text" th:field="*{userId}"/></p>
     <p>accountFrom: <input type="text" th:field="*{accountFrom}"/></p>
     <p>accountTo: <input type="text" th:field="*{accountTo}"/></p>

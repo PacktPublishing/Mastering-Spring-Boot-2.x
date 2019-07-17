@@ -10,7 +10,8 @@ public class UsingScopeSecond {
 
 
   @Autowired
-  public UsingScopeSecond(SingletonBean singletonBean, PrototypeBean prototypeBean) {
+  public UsingScopeSecond(SingletonBean singletonBean,
+                          PrototypeBean prototypeBean) {
     System.out.println("creating UsingScopeSecond");
     this.singletonBean = singletonBean;
     this.prototypeBean = prototypeBean;

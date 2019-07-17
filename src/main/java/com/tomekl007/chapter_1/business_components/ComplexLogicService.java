@@ -10,6 +10,8 @@ public class ComplexLogicService {
   }
 
   public void calculateAndSend(int a) {
-    sendable.send(new Mail("f1", "t1", String.format("%d", a * 10)));
+    sendable.send(
+        new Mail("f1", "t1", String.format("%d", a * 10))
+    );
   }
 }

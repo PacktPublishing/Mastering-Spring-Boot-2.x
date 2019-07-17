@@ -1,4 +1,4 @@
-payment-config.supportedAccounts: accoutFirst, accountSecond, accountThird, accountFourth
+salary-config.supportedAccounts: accoutFirst, accountSecond, accountThird, accountFourth
 
 management.endpoints.web.base-path: "/"
 management.endpoints.web.exposure.include: "*"
