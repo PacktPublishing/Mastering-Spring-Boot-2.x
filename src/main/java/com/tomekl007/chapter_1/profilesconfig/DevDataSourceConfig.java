@@ -1,6 +1,5 @@
-package com.tomekl007.chapter_2.profilesconfig;
+package com.tomekl007.chapter_1.profilesconfig;
 
-import com.tomekl007.chapter_2.profilesconfig.DataSourceConfig;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 

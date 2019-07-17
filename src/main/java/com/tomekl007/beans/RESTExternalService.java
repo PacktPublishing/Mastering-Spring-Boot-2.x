@@ -1,4 +1,4 @@
-package com.tomekl007.chapter_1.beans;
+package com.tomekl007.beans;
 
 
 import org.springframework.stereotype.Component;

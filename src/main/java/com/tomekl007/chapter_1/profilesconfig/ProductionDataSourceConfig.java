@@ -1,4 +1,4 @@
-package com.tomekl007.chapter_2.profilesconfig;
+package com.tomekl007.chapter_1.profilesconfig;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;

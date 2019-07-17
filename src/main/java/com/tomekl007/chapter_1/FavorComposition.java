@@ -1,7 +1,7 @@
 package com.tomekl007.chapter_1;
 
-import com.tomekl007.chapter_1.beans.ChildBean;
-import com.tomekl007.chapter_1.beans.ComposeBean;
+import com.tomekl007.beans.ChildBean;
+import com.tomekl007.beans.ComposeBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

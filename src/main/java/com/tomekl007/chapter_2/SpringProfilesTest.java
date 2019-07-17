@@ -1,6 +1,6 @@
 package com.tomekl007.chapter_2;
 
-import com.tomekl007.chapter_2.profilesconfig.DataSourceConfig;
+import com.tomekl007.chapter_1.profilesconfig.DataSourceConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
